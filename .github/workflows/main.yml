@@ -1,10 +1,10 @@
 name: 
 on: 
   push: 
-     branches:[main] 
+     branches: [main] 
 jobs:
   demo:
      runs-on: ubuntu-latest
      steps:
        - name: checkout repository
-       run: echo "test.java"
+         run: echo "test.java"
